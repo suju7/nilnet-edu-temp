@@ -1,5 +1,6 @@
 package in.nilnet.nilneteducation;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -22,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_fragment);
+
+        startActivity(new Intent(this, Test.class));
+        finish();
 
         Fragment dashboardFragment = new DashboardFragment();
         Fragment coursesFragment = new CoursesFragment();

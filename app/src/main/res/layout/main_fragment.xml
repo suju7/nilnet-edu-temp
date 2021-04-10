@@ -35,8 +35,6 @@
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/main_fragment_container"
         >
-
-
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
